@@ -1,24 +1,25 @@
 # barecode
 
-## Project setup
+## 先安装 Node.js,然后执行以下命令
 ```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+cnpm install
 ```
 
-### Compiles and minifies for production
+### 运行
 ```
-npm run build
+cnpm run serve 
 ```
 
-### Lints and fixes files
+### 构建
 ```
-npm run lint
+cnpm run build
 ```
+
+### 代码格式修复
+```
+cnpm run lint
+```cle
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
