@@ -33,9 +33,7 @@
     <el-divider></el-divider>
     <el-row>
       <el-col :span="2"><div class="grid-content bg-purple"></div></el-col>
-      <el-col :span="20"
-        ><el-sapce wrap><div id="codes"></div></el-sapce>
-      </el-col>
+      <el-col :span="20"><div id="codes"></div> </el-col>
       <el-col :span="2"><div class="grid-content bg-purple"></div></el-col>
     </el-row>
   </div>
